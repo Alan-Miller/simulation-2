@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.App {
+  background: linear-gradient(to bottom, #e2f3ea, #ffffff);
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main_section {
+  width: 750px;
+  height: calc(100vh - 55px);
+  background-color: RGBA(255, 255, 255, 1.00);
+}

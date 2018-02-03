@@ -1,0 +1,24 @@
+.Listing {
+  display: flex;
+  height: 120px;
+  width: 90%;
+  background-color: rgb(200, 200, 200);
+  margin: 10px 0;
+}
+
+.Listing_img {
+  background-size: cover;
+  background-position: center center;
+}
+
+.Listing_img {
+  height: 120px;
+  width: 120px;
+}
+
+.Listing_desc, .Listing_details {
+  width: calc(50% - 50px);
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}

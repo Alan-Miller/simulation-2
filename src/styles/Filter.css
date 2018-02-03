@@ -1,0 +1,26 @@
+.Filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Filter > * {
+  outline: none;
+  width: 100%;
+}
+
+
+
+.Filter .add_button {
+  background-color: rgba(95, 244, 155, 1.00);
+  padding: 10px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,28 @@
+.Header {
+  width: 100vw;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+  background-color: RGBA(34, 158, 115, 1.00);
+}
+
+.Header .content {
+  width: 750px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  padding: 0 5px;
+}
+
+.Header .content img {
+  margin-right: 10px;
+}
+
+.logout {
+  position: absolute;
+  right: 0;
+}
